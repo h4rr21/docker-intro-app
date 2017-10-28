@@ -1,6 +1,9 @@
 # todo-list
 
 > docker intro sample front end app
+#Docker TAG Your IMAGES
+docker tag <tag id> wizelineacademy/todo-frontend:1.0.0
+
 # Docker File BUILD-Multistage
 docker build -t todo-frontend -f Dockerfile.build .
 

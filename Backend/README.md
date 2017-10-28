@@ -1,6 +1,9 @@
 # docker-intro-backend
 Sample API in golang for our docker intro session
 
+#Docker TAG Your IMAGES
+docker tag <tag id> wizelineacademy/todo-backend:1.0.0
+
 #Docker BUILD Multistaging
 docker build -t todo-backend -f Dockerfile.build .
 
