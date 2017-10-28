@@ -15,6 +15,8 @@ docker run -it --rm --name todo-frontend -p 80:80 wizelineacademy/todo-frontend:
 docker volume ls
 docker volume create my-first-vol
 
+#Borrar todas las imagenes que no esten ocupadas
+docker rmi -qa -f dangling=true
 
 # tmpfs - volumes - mount
 #Crear un volumen anonimo
@@ -38,6 +40,7 @@ docker volume create my-first-vol
 
 #Inspect Docker Containers
  docker inspect <docker ps ID>
+ docker stats <docker ps ID>
 
 **Docker Events**
 docker events --since 2017-10-28
