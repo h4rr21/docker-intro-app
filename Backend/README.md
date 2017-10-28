@@ -1,6 +1,9 @@
 # docker-intro-backend
 Sample API in golang for our docker intro session
 
+#Docker BUILD Multistaging
+docker build -t todo-backend -f Dockerfile.build .
+
 ### Installation
 
 Install Dependencies 

@@ -1,6 +1,8 @@
 # todo-list
 
 > docker intro sample front end app
+# Docker File BUILD-Multistage
+docker build -t todo-frontend -f Dockerfile.build .
 
 ## Build Setup
 
