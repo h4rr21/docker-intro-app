@@ -26,6 +26,7 @@ docker volume create my-first-vol
  docker volume prune
 
 **Docker volues**
+*volumenes in different file systems must be created before docker deaomon runs
 
  #Docker network (default (no DNS -just dokcer), none, host)
  docker network ls
